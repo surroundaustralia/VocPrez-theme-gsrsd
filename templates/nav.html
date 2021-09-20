@@ -1,0 +1,5 @@
+<a href="{{ url_for('index') }}" class="nav-item {% if active_page == 'home' %}active{% endif %}">System Home</a>
+<a href="{{ url_for('vocabularies') }}" class="nav-item {% if active_page == 'vocab' %}active{% endif %}">Vocabularies</a>
+<a href="{{ url_for('search') }}" class="nav-item {% if active_page == 'search' %}active{% endif %}">Search</a>
+<a href="{{ url_for('sparql') }}" class="nav-item {% if active_page == 'sparql' %}active{% endif %}">SPARQL</a>
+<a href="{{ url_for('about') }}" class="nav-item {% if active_page == 'about' %}active{% endif %}">About the System</a>
